@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background"> </div>
+        <div class="form-container">
+            <div class="form-header">
+                <img src="MAINPICS/ThreeBears_Logo.png" alt="Logo" class="logo">
+                <h2 class="form-title">SIGN-UP FORM</h2>
+            </div>
+            <form action="signup.php" method="POST">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="FirstName" name="FirstName" placeholder="Enter your First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="LastName" name="LastName" placeholder="Enter your Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="middlei">Middle Initial:</label>
+                        <input type="text" id="MI" name="MI" placeholder="Enter your Middle Initial" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="Add_ress" name="Add_ress" placeholder="Enter your address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ContactNo">Contact Number:</label>
+                        <input type="text" id="Contactnum" name="Contactnum" placeholder="Enter your contact number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Gender">Gender:</label>
+                        <input type="text" id="Gender" name="Gender" placeholder="Enter your gender" required>
+                    </div>
+                    <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your sername" required>
+                    </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="pass_word" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="form-buttons">
+                    <a href="login.html" class="secondary-btn">I already have an account.</a>
+                    <button type="submit" class="secondary-btn">SUBMIT</button>
+                </div>
+            </form>
+        </div>
+        <footer class="footer">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="about-us.html" class="footer-link">About Us</a>
+            <a href="contact-us.html" class="footer-link">Contact Us</a>
+        </footer>
+</body>
+</html>
